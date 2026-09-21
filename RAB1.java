@@ -4,7 +4,7 @@ public class RAB1 {
     static final int n = 100000000;        // число прямоугольников
     static final int N_PER_THREAD = n / THREADS;
 
-    static final double l = -3.0;          // левая граница
+    static final double l = 0.0;           // левая граница
     static final double r = 67.0;          // правая граница
     static final double d = (r - l) / n;   // ширина прямоугольника
 
